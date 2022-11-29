@@ -1,3 +1,19 @@
-@tailwind base;
+/* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
+
+/* one night stand primary color */
+
+.primary {
+  color: #eb4354;
+}
+.bg-primary {
+  background-color: #eb4354;
+}
+.border-primary {
+  border-color: #eb4354;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}

@@ -6,6 +6,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@babel/core": ">=7.0.0 <8.0.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@iconify/react": "^4.0.0",
+    "@lottiefiles/lottie-player": "^1.6.0",
+    "@lottiefiles/react-lottie-player": "^3.4.9",
+    "@mantine/core": "^5.8.4",
+    "@mantine/hooks": "^5.8.4",
+    "@mantine/modals": "^5.8.4",
+    "@mantine/next": "^5.8.4",
+    "@mantine/notifications": "^5.8.4",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.16",
+    "animated-tailwindcss": "^3.3.0",
+    "core@>=7.0.0 <8.0.0": "link:babel/core@>=7.0.0 <8.0.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
