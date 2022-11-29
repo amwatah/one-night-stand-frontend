@@ -9,12 +9,12 @@ import ContactSupportIcon from "@mui/icons-material/ContactSupport";
 const BottomNav = () => {
   return (
     <div className="fixed bottom-0 flex items-center justify-center w-full ">
-      <div className="flex w-1/2 py-1 my-2 border-2 border-[#eb4354] rounded-full shadow-2xl justify-evenly animate-slideInUp  items-center z-50">
+      <div className="flex  w-full sm:w-1/2 py-1 my-2 border-2 border-[#eb4354] rounded-full shadow-2xl justify-evenly animate-slideInUp  items-center z-50">
         <Link href="/">
-          <HomeIcon fontSize="medium" className=" primary hover:animate-tada" />
+          <HomeIcon fontSize="large" className=" primary hover:animate-tada" />
         </Link>
         <Link href="/info">
-          <InfoIcon fontSize="medium" className=" primary hover:animate-tada" />
+          <InfoIcon fontSize="large" className=" primary hover:animate-tada" />
         </Link>
         <Link href="/downloads">
           <CloudDownloadIcon
@@ -23,14 +23,11 @@ const BottomNav = () => {
           />
         </Link>
         <Link href="/terms">
-          <GavelIcon
-            fontSize="medium"
-            className=" primary hover:animate-tada"
-          />
+          <GavelIcon fontSize="large" className=" primary hover:animate-tada" />
         </Link>
         <Link href="/contact">
           <ContactSupportIcon
-            fontSize="medium"
+            fontSize="large"
             className=" primary hover:animate-tada"
           />
         </Link>
